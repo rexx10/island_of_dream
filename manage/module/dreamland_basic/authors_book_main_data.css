@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+body {
+text-align: center;       /*—這樣可以讓ie6的文字及區塊都置中，不過firefox不會區塊置中— */
+}
+
+#c1 { 
+margin: 0 auto;        /*—這樣firefox區塊就可以置中了，因為上下方高度0，左右方長度他會”auto”自動調整— */
+width:50%;             /*—這邊先設定c1的寬度為整個瀏覽器的80%— */
+text-align:left;          /*—這邊就可以讓c1區域內的文字靠左對齊— */
+/*background-color: #FFCCFF;         —區塊背景用粉紅色的比較清楚 xd— */      
+}
+#c1-1{
+text-align: center;
+
+}
+#top-text{
+font-size: 80px;
+}
+#c2{
+text-align:center;
+
+}
+
+textarea{
+width: 80%;
+
+
+}
+
+#author_book_m_d_e_out{
+margin: 0 auto;        /*—這樣firefox區塊就可以置中了，因為上下方高度0，左右方長度他會”auto”自動調整— */
+width:80%;             /*—這邊先設定c1的寬度為整個瀏覽器的80%— */
+text-align:center; 
+
+
+}
+#author_book_m_d_e_c1{
+
+width:150px;
+	height:180px;
+	float: left;
+	margin-top: 130px;
+ 
+
+}
+#author_book_m_d_e_c2{
+width:150px;
+height:224px;
+float: left;
+margin-top: 22px;
+ 
+
+}
+
+#author_book_m_d_e_c3{
+width:150px;
+height:224px;
+float: right;
+margin-top: 22px;
+ 
+
+}
+#textarea{
+width:755px;
+}
+
+#author_book_main_data_table{
+width:870px;             /*—這邊先設定c1的寬度為整個瀏覽器的80%— */
+text-align:left;
+margin: 0px auto;
+}
+#copy{
+margin: 0px auto;
+position:relative;
+left:-69px; 
+}
+#book_content_03{
+
+}
+textarea{
+resize: none;
+}
+
+#authors_group_list_outside,#authors_group_list_edit_outside{
+margin: 0px auto;
+font-size:40px;
+text-align:left;
+}
+
+#authors_group_list_authors_name,#group_authors_code,#group_authors_webside_name,#group_authors_webside,#group_authors_explanation{
+width: 350px;
+height: 30px;
+font-size: 20pt;
+}
+#authors_group_list_edit_authors_webside_name,#authors_group_list_edit_authors_webside{
+width: 500px;
+height:30px ;
+font-size: 20pt;
+
+}
+#authors_group_list_edit_authors_explanation{
+position:relative; 
+top:5px;
+width: 500px;
+height:80px ;
+font-size: 20pt;
+}
+#authors_group_list_edit_middle{
+text-align:left;
+
+}
+#group_authors_img{
+position:relative;
+width: 350px;
+height: 50px;
+top: 2px;
+font-size: 20pt;
+}
+#authors_group_list_under_button_00,#authors_group_list_under_button_01{
+margin: 0px auto;
+width: 120px auto;
+height: 50px auto;
+font-size: 30px;
+
+}
+
+#authors_group_list_outside_list_main{
+  padding-top:15px; 
+  padding-left:10px; 
+  padding-right:30px; 
+  padding-bottom:40px; 
+  border: 1px solid 000000; 
+}
+#authors_group_list_outside_list{
+  padding-top:10px; 
+  padding-left:10px; 
+  padding-right:10px; 
+  padding-bottom:10px; 
+  border: 1px solid 000000; 
+}
+#authors_group_list_left_list_authors_name,#authors_group_list_left_list_authors_code,#authors_group_list_left_list_webside_name{
+float:left;
+font-size: 30px;
+}
+
+#authors_group_list_right_list_authors_name,#authors_group_list_right_list_authors_code,#authors_group_list_right_list_webside_name{
+font-size: 30px;
+padding-left:151px; 
+text-align:left;
+}
+#authors_group_list_left_list_authors_explanation{
+position:relative; 
+float:left;
+font-size: 30px;
+width: 91px;
+height: 60px auto;
+}
+#authors_group_list_right_list_authors_explanation{
+padding-left:91px;
+font-size: 30px;
+width: 500px auto;
+text-align:left;
+word-break: break-all;
+
+}
+#authors_group_list_left_list_authors_img{
+font-size: 30px;
+line-height:300px;
+height: 300px auto;
+float:left;
+}
+#authors_group_list_left_right_authors_img{
+float:left;
+}

@@ -1,0 +1,10 @@
+<table>
+		<tr>
+		<td ROWSPAN="3" WIDTH="120">廣告圖檔一</td><td width="140" height="40">請選擇圖檔：</td><td><input type="file" name="my_banner_edit_pic" size="50"></td><td ROWSPAN="3" COLSPAN="2">1</td>
+		</tr>
+		<tr>
+		<td width="140" height="40">使用網址，請點我</td><td ROWSPAN="2">1</td>
+		</tr>
+		<tr>
+		<td width="140" height="40">使用檔案，請點我</td>
+		</table>

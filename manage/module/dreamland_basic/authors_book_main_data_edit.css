@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+text-align: center;       /*—這樣可以讓ie6的文字及區塊都置中，不過firefox不會區塊置中— */
+}
+
+
+
+td{
+text-align:left;
+
+}
+textarea{
+resize: none;
+}

@@ -1,0 +1,280 @@
+@charset "UTF-8";
+
+body{
+text-align: center;       /*—這樣可以讓ie6的文字及區塊都置中，不過firefox不會區塊置中— */
+margin: 0 auto;
+}
+
+.css_btn_class {
+	font-size:20px;
+	font-family:Arial;
+	font-weight:bold;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #dcdcdc;
+	padding:10px 50px;
+	text-decoration:none;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(23%, #ededed), color-stop(82%, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 23%, #dfdfdf 82% );
+	background:-ms-linear-gradient( top, #ededed 23%, #dfdfdf 82% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	color:#777777;
+	display:inline-block;
+	text-shadow:1px 1px 11px #ffffff;
+ 	-webkit-box-shadow:inset 1px 1px 0px 0px #ffffff;
+ 	-moz-box-shadow:inset 1px 1px 0px 0px #ffffff;
+ 	box-shadow:inset 1px 1px 0px 0px #ffffff;
+}.css_btn_class:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(23%, #dfdfdf), color-stop(82%, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 23%, #ededed 82% );
+	background:-ms-linear-gradient( top, #dfdfdf 23%, #ededed 82% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.css_btn_class:active {
+	position:relative;
+	top:1px;
+}
+textarea{
+resize: none;
+}
+
+#creation_article_chapters_b_detail_text{
+margin: 0px auto;
+*margin: 0px auto;
+_margin: 0px auto;
+width:500px;
+height: 0 auto;
+text-align:left;
+font-family: "標楷體";
+font-size:25px;
+line-height: 35px;
+word-break: break-all;
+}
+#under_close{
+margin: 0px auto;
+width:95px;
+height: 0 auto;
+}
+#under_close,img{
+position:relative;
+top:4px
+}
+#under_hr{
+margin: 0px auto;
+width:650px;
+}
+#ca_works_data_uni_edit_config_out{
+margin: 0px auto;
+width:300px;
+}
+#ca_works_data_uni_edit_config_list_right_side{
+margin: 0px auto;
+position:relative;
+text-align:center;
+height: 0 auto;
+
+}
+#ca_works_data_uni_edit_config_list_right_side_img{
+margin: 0px auto;
+position:relative;
+top:-1px;
+
+
+}
+#ca_authors_dta_config_out{
+margin-left:32%;
+width:900px;             /*—這邊先設定c1的寬度為整個瀏覽器的80%— */
+text-align:left;
+font-size:150%;
+}
+#use_fb_fans{
+width: 20px; 
+height: 20px;
+}
+#raido_sel_this_yes{
+width: 20px; 
+height: 20px;
+}
+#raido_sel_this_no{
+width: 20px; 
+height: 20px;
+}
+
+#ca_authors_dta_config_detail01{
+position:relative; 
+text-align:left;
+font-size:30px;
+left:71px; 
+}
+
+#creation_article_chapters_name,#creation_article_chapters_post_date,#creation_article_chapters_detail{
+position:relative; 
+text-align:left;
+font-size:30px;
+left:71px; 
+}
+#ca_authors_dta_config_detail02{
+position:relative; 
+text-align:left;
+font-size:30px;
+left:70px; 
+}
+
+#ca_authors_dta_config_img{
+position:relative; 
+text-align:left;
+font-size:30px;
+left:70px; 
+}
+
+
+#ca_authors_dta_config_button{
+position:relative; 
+text-align:left;
+left:200px; 
+
+}
+#ca_works_data_uni_edit_config_button{
+position:relative; 
+margin: 0px auto;
+width: 800px;
+left:-25px;
+}
+
+#keyin_box00{
+font-size:23px;
+}
+
+#keyin_box01{
+font-size:23px;
+}
+
+#keyin_box02{
+font-size:23px;
+}
+
+#select_box01{
+font-size:23px;
+
+}
+#keyin_box03{
+font-size:21px;
+}
+#keyin_box04{
+font-size:21px;
+}
+#list_pic{
+position:relative; 
+top:15px;
+width:150px;
+text-align:left;
+}
+#list_pic2{
+position:relative; 
+top:-10px;
+width:150px;
+left:115px;
+}
+#list_ca_authors_data_config_code{
+position:relative; 
+top:5px;
+width:150px;
+text-align:left;
+}
+
+#list_ca_authors_data_config_code2{
+position:relative; 
+top:-20px;
+width:150px auto;
+left:45px;
+ 
+}
+
+#list_ca_authors_data_config_name{
+position:relative; 
+top:5px;
+width:150px;
+text-align:left;
+}
+
+#list_ca_authors_data_config_name2{
+position:relative; 
+top:-20px;
+width:150px auto;
+left:45px;
+ 
+}
+
+#list_out_side_img{
+position:relative;
+height: 150px;
+
+}
+#list_left_side_img{
+position:relative; 
+top:60px;
+width:150px;
+text-align:left;
+left:5px;
+}
+#list_out_side{
+position:relative;
+height: 45px auto;
+}
+#list_left_side{
+position:relative; 
+top:5px;
+height:0 auto;
+width:150px;
+text-align:left;
+left:5px;
+}
+#list_right_side_img{
+position:relative; 
+top:-10px;
+width:150px;
+left:95px;
+}
+#list_right_side_name{
+position:relative; 
+top:-20px;
+width:150px;
+text-align:left;
+left:100px;
+}
+#list_right_side_ca_date{
+position:relative; 
+top:-20px;
+width:150px;
+text-align:left;
+left:100px;
+}
+#list_right_side_ca_ser_status{
+position:relative; 
+top:-20px;
+width:210px;
+text-align:left;
+left:100px;
+}
+#list_ch_detail{
+position:relative; 
+top:-20px;
+height:0 auto;
+width:230px;
+text-align:left;
+left:100px;
+word-break: break-all;
+}
+#detail_tag{
+position:relative; 
+text-align:right;
+top:10px;
+right:20px;
+font-style: italic;
+}
+#detail_tag,a{
+text-decoration: none;
+color: blue;
+}

@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body{
+text-align: center;       /*—這樣可以讓ie6的文字及區塊都置中，不過firefox不會區塊置中— */
+margin: 0 auto;
+}
+
+#ad_webside_link_main_title{
+}
+
+#ad_webside_link_main_out{
+margin-left:35%;
+width:900px;             /*—這邊先設定c1的寬度為整個瀏覽器的80%— */
+text-align:left;
+font-size:150%;
+}
+#use_fb_fans{
+width: 20px; 
+height: 20px;
+}
+#raido_sel_this_yes{
+width: 20px; 
+height: 20px;
+}
+#raido_sel_this_no{
+width: 20px; 
+height: 20px;
+}
+
+#ad_webside_link_detail00{
+position:relative; 
+text-align:left;
+left:80px; 
+}
+
+#ad_webside_link_detail01{
+position:relative; 
+text-align:left;
+left:71px; 
+}
+
+#ad_webside_link_detail02{
+position:relative; 
+text-align:left;
+left:70px; 
+}
+
+#ad_webside_link_detail03{
+position:relative; 
+text-align:left;
+left:70px; 
+}
+
+
+#raido_sel_no{
+position:relative; 
+text-align:left;
+left:70px; 
+}
+
+#ad_webside_link_button{
+position:relative; 
+text-align:left;
+left:200px; 
+
+}
+
+#list_pic{
+position:relative; 
+top:100px;
+width:150px;
+text-align:left;
+}
+#list_pic2{
+position:relative; 
+top:-10px;
+left:20px;
+}
+#list_name{
+position:relative; 
+top:5px;
+width:150px;
+text-align:left;
+}
+
+#list_name2{
+position:relative; 
+top:-15px;
+width:20px;
+left:145px; 
+}
+#list_webside{
+position:relative; 
+top:5px;
+width:150px;
+text-align:left;
+}
+#list_webside2{
+position:relative; 
+top:-20px;
+width:320px;
+left:145px; 
+}
